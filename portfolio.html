@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Chelsey MacNeill </title>
+    <!-- CSS link to import bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Styling -->
+    <link rel="stylesheet" type="text/css" href="style-hw-2.css">
+    <!-- Putting styling around divs so I can follow the flow of what the grid is doing. Delete before submitting -->
+    <style>
+        div {border-style:solid; border-color: hotpink;}
+    </style>
+    
+    
+</head>
+<body>
+    <!-- 1. Navbar -->
+    <!-- Questions 
+        1. Where do I add role for assistive technologies?
+        2.-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Chelsey MacNeill</a>
+        <!-- TA Questions: Why didn't adding "justify-content-end" move the contents to the right? ml-auto did work -->
+        <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="index.html">About</a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+    </nav>
+        
+        <!-- 2. Content Area-->
+        <!-- Should have responsive layout i.e on a x-small screen content should take up entire screen. On `sm` and larger screens, you should have some margins on the left and right side of the screen.-->
+        <!-- Images should also be responsive-->
+    <div class="container-fluid">
+        <!-- Row for the content-->
+        <div class="row align-items-center">
+            <!-- Three columns the middle column being wider and the two outer columns being empty-->
+            <div class="col-2">
+                Empty on purpose
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <h1> Portfolio </h1>
+                </div>
+                <!-- TA Question: Can't figure out how to have the text wrap!!!-->
+                <div class="row">
+                    <!--This is the only part that is different from page to page.-->
+                    <div class="col-sm-6">
+                        <!-- Alexa Project -->
+                        <div class="card">
+                            <!-- TA Question: Is it a bad idea to name my own type of class and then control it with css-->
+                            <div class="card bg-dark text-white">
+                                <img src="assets/images/amazonecho.jpg" class="card-img-top" alt="..." >
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title text-align-center">Special title treatment</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Alexa Project -->
+                        <div class="card">
+                            <!-- TA Question: Is it a bad idea to name my own type of class and then control it with css-->
+                            <div class="card bg-dark text-white">
+                                <img src="assets/images/amazonecho.jpg" class="card-img-top" alt="..." >
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title text-align-center">Special title treatment</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <!-- Alexa Project -->
+                        <div class="card">
+                            <!-- TA Question: Is it a bad idea to name my own type of class and then control it with css-->
+                            <div class="card bg-dark text-white">
+                                <img src="assets/images/amazonecho.jpg" class="card-img-top" alt="..." >
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title text-align-center">Special title treatment</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Alexa Project -->
+                        <div class="card">
+                            <!-- TA Question: Is it a bad idea to name my own type of class and then control it with css-->
+                            <div class="card bg-dark text-white">
+                                <img src="assets/images/amazonecho.jpg" class="card-img-top" alt="..." >
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title text-align-center">Special title treatment</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Below is the same from page to page -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                Empty on purpose
+            </div>
+        </div>
+            <!-- Row for the footer-->
+        <div class=" row footer mt-auto">
+            <!-- contains only one column that spans the whole container -->
+            <div class="col">Copyright &copy;
+            </div>
+        </div>
+    </div>
+</body>
+</html>
