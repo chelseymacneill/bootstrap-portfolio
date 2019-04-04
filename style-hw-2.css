@@ -1,12 +1,21 @@
+/* Container styling*/
+.container-fluid { width:100; /* This was to remove the padding that was showing up in the footer. */
+}
 
+.row { margin: 0px; /* Once I removed the padding then the rows had gaps on the side that I didn't like*/
 
+}
 
 
 /* About me image */
 #aboutme_img { height: 150px;
 }
 
-container { margin-bottom: 60px;
+/* Portfolio */
+.card-img-overlay > h5 {  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  bottom: 2px;
 }
 
 
