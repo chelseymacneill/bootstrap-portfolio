@@ -11,9 +11,9 @@
     <link rel="stylesheet" type="text/css" href="style-hw-2.css">
     <!-- Putting styling around divs so I can follow the flow of what the grid is doing. Delete before submitting -->
     <!-- 
-    <style>
-        div {border-style:solid; border-color: hotpink;}
-    </style>
+        <style>
+            div {border-style:solid; border-color: hotpink;}
+        </style>
     -->
     
 </head>
@@ -22,7 +22,7 @@
     <!-- Questions 
         1. Where do I add role for assistive technologies?
         2.-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg bg-light">
             <a class="navbar-brand" href="index.html">Chelsey MacNeill</a>
             <!-- TA Questions: Why didn't adding "justify-content-end" move the contents to the right? ml-auto did work -->
             <div class="navbar-nav ml-auto">
@@ -40,7 +40,7 @@
             <div class="row align-items-center">
                 <!-- Three columns the middle column being wider and the two outer columns being empty-->
                 <div class="col-2">
-                    Empty on purpose
+                    <!-- Empty on purpose-->
                 </div>
                 <div class="col-8">
                     <div class="row">
@@ -54,18 +54,18 @@
                             <div class="card">
                                 <!-- TA Question: Is it a bad idea to name my own type of class and then control it with css-->
                                 <div class="card bg-dark text-white">
-                                    <img src="assets/images/amazonecho.jpg" class="card-img-top" alt="..." >
+                                    <img src="assets/images/amazonecho.jpg" class="card-img-top" alt="..."  id="alexa_img">
                                     <div class="card-img-overlay h-100 d-flex flex-column justify-content-end"></div>
-                                    <div class="card-footer bg-transparent border-success">Footer</div>
+                                    <div class="card-footer">Alexa Skill</div>
                                 </div>
                             </div>
                             <!-- Alexa Project with a footer instead -->
                             <div class="card">
                                 <!-- TA Question: Is it a bad idea to name my own type of class and then control it with css-->
                                 <div class="card bg-dark text-white">
-                                    <img src="assets/images/amazonecho.jpg" class="card-img-top" alt="..." >
+                                    <img src="assets/images/knitting_2.jpg" class="card-img-top" alt="..." id="knitting_img">
                                     <div class="card-img-overlay h-100 d-flex flex-column justify-content-end"></div>
-                                    <div class="card-footer bg-transparent border-success">Footer</div>
+                                    <div class="card-footer">Knitting</div>
                                 </div>
                             </div>
                         </div>
@@ -74,18 +74,18 @@
                             <div class="card">
                                 <!-- TA Question: Is it a bad idea to name my own type of class and then control it with css-->
                                 <div class="card bg-dark text-white">
-                                    <img src="assets/images/amazonecho.jpg" class="card-img-top" alt="..." >
+                                    <img src="assets/images/etl.png" class="card-img-top" alt="..." id="etl_img">
                                     <div class="card-img-overlay h-100 d-flex flex-column justify-content-end"></div>
-                                    <div class="card-footer bg-transparent border-success">Footer</div>
+                                    <div class="card-footer">ETL Pipeline</div>
                                 </div>
                             </div>
                             <!-- Alexa Project -->
                             <div class="card">
                                 <!-- TA Question: Is it a bad idea to name my own type of class and then control it with css-->
                                 <div class="card bg-dark text-white">
-                                    <img src="assets/images/amazonecho.jpg" class="card-img-top" alt="..." >
+                                    <img src="assets/images/dashboard.png" class="card-img-top" alt="..." id="dashboard_img">
                                     <div class="card-img-overlay h-100 d-flex flex-column justify-content-end"></div>
-                                    <div class="card-footer bg-transparent border-success">Footer</div>
+                                    <div class="card-footer">Tableau Dashboard</div>
                                 </div>
                             </div>
                             <!-- Below is the same from page to page -->
@@ -93,13 +93,14 @@
                     </div>
                 </div>
                 <div class="col-2">
-                    Empty on purpose
+                    <!-- Empty on purpose-->
                 </div>
             </div>
             <!-- Row for the footer-->
-            <div class=" row footer mt-auto">
+            <div class="row-footer">
                 <!-- contains only one column that spans the whole container -->
-                <div class="col">Copyright &copy;
+                <div class="col">
+                    Copyright &copy;
                 </div>
             </div>
         </div>
