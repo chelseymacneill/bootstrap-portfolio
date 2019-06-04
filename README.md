@@ -1,4 +1,0 @@
-# bootstrap-portfolio
-Bootstrap Portfolio
-
-
